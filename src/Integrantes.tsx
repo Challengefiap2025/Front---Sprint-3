@@ -1,5 +1,5 @@
 export default function Integrantes() {
-  const equipe = ["Maria Silva", "João Pereira", "Ana Costa", "Carlos Souza"];
+  const equipe = ["Gabriel Garcia", "Gabriel Camargo", "Luis Guilherme"];
 
   return (
     <div>
