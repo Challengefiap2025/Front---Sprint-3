@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
   return (
-    <header className="bg-blue-700 text-white py-4 shadow-md fixed top-0 w-full z-50">
-      <nav className="max-w-6xl mx-auto flex justify-between px-6">
+    <header className="bg-sky-800/75 text-white py-4 shadow-md fixed top-0 w-full z-50">
+      <nav className="max-w-8xl mx-auto flex justify-between px-6">
         <h1 className="text-2xl font-bold">Guia HC</h1>
         <ul className="flex gap-6 font-medium">
           <li><Link to="/" className="hover:underline">Home</Link></li>
