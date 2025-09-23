@@ -94,7 +94,7 @@ export default function TesteDispositivo() {
   return (
     <div className="flex flex-col items-center pt-24 px-4">
       <section className="bg-white shadow-md rounded-lg p-6 w-full max-w-2xl">
-        <h2 className="text-2xl font-bold text-sky-800 mb-4 text-center">
+        <h2 className="text-2xl font-bold text-sky-800/85 mb-4 text-center">
           Teste de Dispositivo
         </h2>
 

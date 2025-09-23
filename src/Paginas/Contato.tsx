@@ -1,24 +1,54 @@
-import { useState } from "react";
-
 export default function Contato() {
-  const [nome, setNome] = useState("");
-  const [email, setEmail] = useState("");
-  const [mensagem, setMensagem] = useState("");
-
-  function handleSubmit(e: React.FormEvent) {
-    e.preventDefault();
-    alert(`Mensagem enviada por ${nome} (${email}): ${mensagem}`);
-  }
+  const contatos = [
+    {
+      nome: "Luis Guilherme Borges Silva",
+      turma: "1TDSPK",
+      rm: "RM566548 - Desenvolvedor Frontend e Data Science",
+      github: "https://github.com/LuisGdev13",
+    },
+    {
+      nome: "Gabriel Camargo Lopes",
+      turma: "1TDSPK",
+      rm: "RM564752 - Desenvolvedor Backend",
+      github: "https://github.com/GabrielGCL7",
+    },
+    {
+      nome: "Gabriel Garcia Mayo Delatore",
+      turma: "1TDSPK",
+      rm: "RM563298 - UI/UX Designer",
+      github: "https://github.com/anacosta",
+    },
+  ];
 
   return (
-    <div>
-      <h1>Contato</h1>
-      <form onSubmit={handleSubmit}>
-        <input value={nome} onChange={(e) => setNome(e.target.value)} placeholder="Nome" />
-        <input value={email} onChange={(e) => setEmail(e.target.value)} placeholder="Email" />
-        <textarea value={mensagem} onChange={(e) => setMensagem(e.target.value)} placeholder="Mensagem" />
-        <button type="submit">Enviar</button>
-      </form>
+    <div className="flex flex-col items-center pt-24 px-4">
+      <section className="bg-white shadow-md rounded-lg p-6 w-full max-w-2xl">
+        <h2 className="text-2xl font-bold text-sky-800/85 mb-6 text-center">
+          Integrantes do Time
+        </h2>
+
+        <div className="grid gap-4">
+          {contatos.map((pessoa, index) => (
+            <div
+              key={index}
+              className="flex items-center justify-between border rounded p-4 hover:shadow-md transition"
+            >
+              <div>
+                <h3 className="text-lg font-semibold">{pessoa.nome}</h3>
+                <p className="text-gray-600">{pessoa.rm}</p>
+              </div>
+              <a
+                href={pessoa.github}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-cyan-600 hover:underline font-medium"
+              >
+                GitHub
+              </a>
+            </div>
+          ))}
+        </div>
+      </section>
     </div>
   );
 }

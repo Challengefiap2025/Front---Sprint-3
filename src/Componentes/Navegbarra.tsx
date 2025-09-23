@@ -9,7 +9,7 @@ export default function Navbar() {
           <li><Link to="/" className="hover:underline">Home</Link></li>
           <li><Link to="/dispositivos" className="hover:underline">Teste</Link></li>
           <li><Link to="/consulta" className="hover:underline">Consulta</Link></li>
-          <li><Link to="/contato" className="hover:underline">Contato</Link></li>
+          <li><Link to="/contato" className="hover:underline">Integrantes</Link></li>
           <li><Link to="/faq" className="hover:underline">FAQ</Link></li>
         </ul>
       </nav>

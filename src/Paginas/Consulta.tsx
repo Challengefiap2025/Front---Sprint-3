@@ -56,7 +56,7 @@ export default function Consulta() {
   return (
     <div className="flex flex-col items-center pt-24 px-4">
       <section className="bg-white shadow-md rounded-lg p-6 w-full max-w-lg">
-        <h2 className="text-2xl font-bold text-slate-700 mb-2 text-center">
+        <h2 className="text-2xl font-bold text-sky-800/85 mb-2 text-center">
           Agende sua Consulta
         </h2>
         <p className="text-gray-600 text-center mb-6">

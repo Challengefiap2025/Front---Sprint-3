@@ -7,8 +7,6 @@ import Consulta from "./Paginas/Consulta";
 import Contato from "./Paginas/Contato";
 import Dispositivos from "./Paginas/Dispositivos";
 import FAQ from "./Paginas/Faq";
-import Integrantes from "./Paginas/Integrantes";
-import Login from "./Paginas/Login";
 
 export default function App() {
   return (
@@ -23,8 +21,6 @@ export default function App() {
             <Route path="/contato" element={<Contato />} />
             <Route path="/dispositivos" element={<Dispositivos />} />
             <Route path="/faq" element={<FAQ />} />
-            <Route path="/integrantes" element={<Integrantes />} />
-            <Route path="/login" element={<Login />} />
           </Routes>
         </main>
         <Footer />
