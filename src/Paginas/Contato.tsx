@@ -16,7 +16,7 @@ export default function Contato() {
       nome: "Gabriel Garcia Mayo Delatore",
       turma: "1TDSPK",
       rm: "RM563298 - UI/UX Designer",
-      github: "https://github.com/anacosta",
+      github: "https://github.com/Gabriel-hub-prog22",
     },
   ];
 
