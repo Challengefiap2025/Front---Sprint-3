@@ -7,6 +7,7 @@ import Consulta from "./Paginas Componentes/Consulta";
 import Contato from "./Paginas Componentes/Contato";
 import Dispositivos from "./Paginas Componentes/Dispositivos";
 import FAQ from "./Paginas Componentes/Faq";
+import Sobre from "./Paginas Componentes/Sobre";
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
             <Route path="/contato" element={<Contato />} />
             <Route path="/dispositivos" element={<Dispositivos />} />
             <Route path="/faq" element={<FAQ />} />
+            <Route path="/sobre" element={<Sobre />} />
           </Routes>
         </main>
         <Footer />

@@ -14,6 +14,7 @@ export default function Navegbar() {
           <li><Link to="/consulta" className="hover:underline">Consulta</Link></li>
           <li><Link to="/contato" className="hover:underline">Integrantes</Link></li>
           <li><Link to="/faq" className="hover:underline">FAQ</Link></li>
+          <li><Link to="/sobre" className="hover:underline">Sobre</Link></li>
         </ul>
         <button
           className="md:hidden text-2xl"
@@ -28,6 +29,7 @@ export default function Navegbar() {
           <Link to="/consulta" onClick={() => setMenuAberto(false)}>Consulta</Link>
           <Link to="/contato" onClick={() => setMenuAberto(false)}>Integrantes</Link>
           <Link to="/faq" onClick={() => setMenuAberto(false)}>FAQ</Link>
+          <Link to="/sobre" onClick={() => setMenuAberto(false)}>Sobre</Link>
         </div>
       )}
     </header>
