@@ -1,69 +1,67 @@
-# React + TypeScript + Vite
+#  Guia HC — Sistema de Consultas Online
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este é um projeto desenvolvido em **React + TypeScript + Vite + Tailwind CSS**, que foi criado para ajudar o Hospital das Clinicas com um sistema de consultas online para facilitar o agendamento, testes de dispositivos e suporte aos usuários.
 
-Currently, two official plugins are available:
+---
+## 🔗 Link do Repositório GitHub
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+**https://github.com/Challengefiap2025/Front---Sprint-3.git**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+---
+## Integrantes do Grupo
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+- **Luis Guilherme Borges Silva — RM 566548**
+- **Gabriel Camargo Lopes — RM 564752**
+- **Gabriel Garcia Mayo Delatore — RM 563298**
+---
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+---
+## Tecnologias Utilizadas
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+- [React](https://react.dev/) + [Vite](https://vitejs.dev/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [React Router DOM](https://reactrouter.com/)
+- [React Hook Form](https://react-hook-form.com/) 
+---
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+---
+## Imagens do Projeto
+public/images/logohc.png
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
+---
 
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-```
+---
+## 📂 Estrutura de Pastas
+
+**Guia-hc**
+├── 📂 public\images
+│ ├── logohc.png
+├── 📂 src
+│ ├── 📂 componentes #  reutilizáveis (Card, Navbar, Footer...)
+│ ├── Card.tsx
+│ ├── Footer.tsx
+│ ├── Navegbarra.tsx
+│ ├── 📂 Paginas em componentes # (Home, Consulta, Contato, Dispositivos e FAQ.)
+│ ├── Consulta.tsx
+│ ├── Contato.tsx
+│ ├── Dispositivos.tsx
+│ ├── Faq.tsx
+│ ├── Home.tsx
+├── App.tsx
+├── index.css
+├── main.tsx
+├── vite-env.d.ts
+├── index.html
+├── package.lock-json
+├── package.json
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+
+---
+
+
