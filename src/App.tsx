@@ -2,11 +2,11 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from "./Componentes/Navegbarra";
 import Footer from "./Componentes/Footer";
 
-import Home from "./Paginas/Home";
-import Consulta from "./Paginas/Consulta";
-import Contato from "./Paginas/Contato";
-import Dispositivos from "./Paginas/Dispositivos";
-import FAQ from "./Paginas/Faq";
+import Home from "./Paginas Componentes/Home";
+import Consulta from "./Paginas Componentes/Consulta";
+import Contato from "./Paginas Componentes/Contato";
+import Dispositivos from "./Paginas Componentes/Dispositivos";
+import FAQ from "./Paginas Componentes/Faq";
 
 export default function App() {
   return (
