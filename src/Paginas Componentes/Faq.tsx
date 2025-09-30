@@ -27,7 +27,7 @@ export default function Faq() {
     {
       titulo: "🎥 O que faço se a videochamada não funcionar?",
       resposta:
-        "Verifique sua conexão de internet, reinicie o dispositivo e, se o problema persistir, entre em contato com o suporte.",
+        "Verifique sua conexão de internet, reinicie o dispositivo e se o problema persistir, entre em contato com o suporte.",
     },
     {
       titulo: "🗓️ Como faço para agendar uma consulta online?",
@@ -48,7 +48,7 @@ export default function Faq() {
   return (
     <div className="flex flex-col items-center pt-24 px-4">
       <section className="bg-white shadow-md rounded-lg p-6 w-full max-w-2xl">
-        <h2 className="text-2xl font-bold text-blue-900 mb-6 text-center">
+        <h2 className="text-2xl font-bold text-sky-800/85 mb-6 text-center">
           Perguntas Frequentes (FAQ)
         </h2>
 
@@ -57,7 +57,7 @@ export default function Faq() {
             <div key={index} className="border-b pb-2">
               <button
                 onClick={() => toggle(index)}
-                className="w-full text-left font-semibold text-lg text-blue-900 hover:text-blue-600 transition">
+                className="w-full text-left font-semibold text-lg text-blue-900 hover:text-cyan-600 transition">
                 {item.titulo}
               </button>
               {aberta === index && (
@@ -69,7 +69,7 @@ export default function Faq() {
 
         <div className="mt-8">
           <h3 className="text-lg font-semibold text-blue-900 mb-4 text-center">
-            ❓ Ainda tem dúvidas? Envie sua pergunta:
+             Ainda tem dúvidas? Envie sua pergunta:
           </h3>
           <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
             <div>
@@ -123,7 +123,7 @@ export default function Faq() {
           <p className="mb-2 text-gray-700">Ou se preferir:</p>
           <Link
             to="/contato"
-            className="text-blue-600 hover:underline font-medium">
+            className="text-blue-500 hover:underline font-medium">
             Clique aqui para falar com o suporte
           </Link>
         </div>

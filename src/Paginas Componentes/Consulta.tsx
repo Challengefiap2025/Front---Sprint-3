@@ -143,7 +143,7 @@ export default function Consulta() {
 
           <button
             type="submit"
-            className="w-full bg-teal-700 text-white py-2 rounded hover:bg-cyan-800 transition">
+            className="w-full bg-sky-600 text-white py-2 rounded hover:bg-blue-700 transition">
             Confirmar Consulta
           </button>
         </form>
