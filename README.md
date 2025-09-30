@@ -9,15 +9,14 @@ Este é um projeto desenvolvido em **React + TypeScript + Vite + Tailwind CSS**,
 
 ---
 
----
 ## Integrantes do Grupo
 
 - **Luis Guilherme Borges Silva — RM 566548**
 - **Gabriel Camargo Lopes — RM 564752**
 - **Gabriel Garcia Mayo Delatore — RM 563298**
----
 
 ---
+
 ## Tecnologias Utilizadas
 
 - [React](https://react.dev/) + [Vite](https://vitejs.dev/)
@@ -25,13 +24,11 @@ Este é um projeto desenvolvido em **React + TypeScript + Vite + Tailwind CSS**,
 - [Tailwind CSS](https://tailwindcss.com/)
 - [React Router DOM](https://reactrouter.com/)
 - [React Hook Form](https://react-hook-form.com/) 
----
 
 ---
+
 ## Imagens do Projeto
 public/images/logohc.png
-
----
 
 ---
 ## 📂 Estrutura de Pastas

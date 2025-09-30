@@ -4,7 +4,7 @@ import Footer from "./Componentes/Footer";
 
 import Home from "./Paginas Componentes/Home";
 import Consulta from "./Paginas Componentes/Consulta";
-import Contato from "./Paginas Componentes/Contato";
+import Contato from "./Paginas Componentes/Integrantes";
 import Dispositivos from "./Paginas Componentes/Dispositivos";
 import FAQ from "./Paginas Componentes/Faq";
 import Sobre from "./Paginas Componentes/Sobre";

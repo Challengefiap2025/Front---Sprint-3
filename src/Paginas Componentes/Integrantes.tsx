@@ -3,19 +3,19 @@ export default function Contato() {
     {
       nome: "Luis Guilherme Borges Silva",
       turma: "1TDSPK",
-      rm: "RM566548 - Desenvolvedor Frontend e Data Science",
+      rm: "RM566548 - 1TDSPK",
       github: "https://github.com/LuisGdev13",
     },
     {
       nome: "Gabriel Camargo Lopes",
       turma: "1TDSPK",
-      rm: "RM564752 - Desenvolvedor Backend",
+      rm: "RM564752 - 1TDSPK",
       github: "https://github.com/GabrielGCL7",
     },
     {
       nome: "Gabriel Garcia Mayo Delatore",
       turma: "1TDSPK",
-      rm: "RM563298 - UI/UX Designer",
+      rm: "RM563298 - 1TDSPK",
       github: "https://github.com/Gabriel-hub-prog22",
     },
   ];
@@ -41,8 +41,7 @@ export default function Contato() {
                 href={pessoa.github}
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-cyan-600 hover:underline font-medium"
-              >
+                className="text-cyan-600 hover:underline font-medium">              
                 GitHub
               </a>
             </div>

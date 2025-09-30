@@ -44,9 +44,8 @@ export default function Home() {
           to="/faq"/>
 
 
-// falta centralizar o card 
         <Card
-          titulo="Sobre a Solução"
+          titulo="Sobre a Solução" // falta centralizar o card
           descricao="Saiba mais sobre o Guia HC e seus benefícios."
           to="/sobre"/>
     
