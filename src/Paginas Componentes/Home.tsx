@@ -42,6 +42,14 @@ export default function Home() {
           titulo="Perguntas Frequentes"
           descricao="Encontre respostas para as principais dúvidas."
           to="/faq"/>
+
+
+// falta centralizar o card 
+        <Card
+          titulo="Sobre a Solução"
+          descricao="Saiba mais sobre o Guia HC e seus benefícios."
+          to="/sobre"/>
+    
       </div>
     </div>
   );
