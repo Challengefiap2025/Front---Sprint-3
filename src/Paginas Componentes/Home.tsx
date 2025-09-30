@@ -37,18 +37,19 @@ export default function Home() {
           titulo="Teste seu dispositivo"
           descricao="Teste seu dispositivo antes da consulta."
           to="/dispositivos"/>
-                  
+          
         <Card
           titulo="Perguntas Frequentes"
           descricao="Encontre respostas para as principais dúvidas."
           to="/faq"/>
-
-
-        <Card
-          titulo="Sobre a Solução" // falta centralizar o card
-          descricao="Saiba mais sobre o Guia HC e seus benefícios."
-          to="/sobre"/>
-    
+        
+        <div className="md:col-span-2 flex justify-center">
+          <Card
+            titulo="Sobre a Solução"
+            descricao="Saiba mais sobre o Guia HC e seus benefícios."
+            to="/sobre"
+          />
+        </div>
       </div>
     </div>
   );
