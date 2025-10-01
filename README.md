@@ -9,6 +9,12 @@ Este é um projeto desenvolvido em **React + TypeScript + Vite + Tailwind CSS**,
 
 ---
 
+## 🔗 Link do Repositório GitHub
+
+**https://youtu.be/UXXwcuZGLYY**
+
+---
+
 ## Integrantes do Grupo
 
 - **Luis Guilherme Borges Silva — RM 566548**
