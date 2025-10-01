@@ -9,7 +9,7 @@ Este é um projeto desenvolvido em **React + TypeScript + Vite + Tailwind CSS**,
 
 ---
 
-## 🔗 Link do Repositório GitHub
+## 🔗 Link do Video no Youtube
 
 **https://youtu.be/UXXwcuZGLYY**
 
